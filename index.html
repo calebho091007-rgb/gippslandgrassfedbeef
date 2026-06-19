@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth scroll-pt-24 md:scroll-pt-40">
+<html lang="en" class="scroll-smooth scroll-pt-28 md:scroll-pt-44">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,13 +26,15 @@
 <body class="font-['Raleway'] bg-gray-50">
 
     <!-- Navigation -->
-        </nav>
 <nav class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-6 py-4 relative">
-            <div class="flex justify-between items-center">
-                <div class="flex items-center space-x-4">
-                    <img src="images/logo.jfif" alt="Gippsland Grass Fed Beef Logo" class="h-24 md:h-36 flex-shrink-0">
-                    <span class="font-['Playfair_Display'] text-sm sm:text-lg md:text-4xl font-bold text-green-800">Gippsland Grass Fed Beef</span>
+            <div class="grid grid-cols-3 items-center md:flex md:justify-between">
+                
+                <div class="md:hidden"></div>
+
+                <div class="col-start-2 justify-self-center flex items-center md:space-x-4">
+                    <img src="images/logo.jfif" alt="Gippsland Grass Fed Beef Logo" class="h-28 md:h-36 flex-shrink-0">
+                    <span class="hidden md:block font-['Playfair_Display'] md:text-4xl font-bold text-green-800">Gippsland Grass Fed Beef</span>
                 </div>
                 
                 <div class="hidden md:flex space-x-8">
@@ -43,9 +45,11 @@
                     <a href="#contact" class="text-gray-700 hover:text-green-600">Contact</a>
                 </div>
 
-                <button id="menu-btn" class="md:hidden ml-auto flex-shrink-0 focus:outline-none">
-                    <i data-feather="menu" class="w-8 h-8 text-gray-700"></i>
-                </button>
+                <div class="justify-self-end md:hidden">
+                    <button id="menu-btn" class="focus:outline-none">
+                        <i data-feather="menu" class="w-8 h-8 text-gray-700"></i>
+                    </button>
+                </div>
             </div>
 
             <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full bg-white shadow-lg border-t border-gray-100 flex flex-col space-y-0 px-6 py-2 z-50">
@@ -53,7 +57,7 @@
                 <a href="#about" class="py-3 text-gray-700 hover:text-green-600 border-b border-gray-50">About Us</a>
                 <a href="#product" class="py-3 text-gray-700 hover:text-green-600 border-b border-gray-50">Product</a>
                 <a href="#faq" class="py-3 text-gray-700 hover:text-green-600 border-b border-gray-50">FAQ</a>
-                <a href="#contact" class="py-3 text-gray-700 hover:text-green-600">Contact</a>
+                <a href="#contact" class="py-3 text-gray-700 hover:text-green-600 border-b border-gray-50">Contact</a>
             </div>
         </div>
     </nav>
@@ -63,7 +67,7 @@
         <div class="absolute inset-0 bg-black bg-opacity-40"></div>
         <div class="container mx-auto px-6 relative z-10">
             <h1 class="font-['Playfair_Display'] text-5xl md:text-4xl font-bold text-white mb-4">Pasture Raised • 100% Grass Fed • Farm Direct</h1>
-            <p class="text-xl text-white mb-8 max-w-2xl">Gippsland Grass Fed Beef brings good quality grass fed beef at competitive price directly from the farm to your home. The cattle that are processed are raised ethically and naturally without the use artificial growth hormones and antibiotics. They roam on pasture and feed on grass their entire lives.</p>
+            <p class="text-xl text-white mb-8 max-w-2xl">Gippsland Grass Fed Beef delivers quality, grass-fed beef direct from our farm to your home, providing savings through bulk purchases. Our cattle are raised ethically and naturally without the use of artificial growth hormones, antibiotics, mRNA vaccine, GMO and bovaer. They roam on pasture and feed on grass their entire lives.</p>
             <div class="flex items-center space-x-4 flex-1 min-w-0">
                 <a href="#about" class="border-2 border-white text-white px-6 py-3 rounded-md font-medium">About Us</a>
                 <a href="#contact" class="bg-green-700 hover:bg-green-600 text-white px-6 py-3 rounded-md font-medium">Contact Us</a>
@@ -78,7 +82,7 @@
                 <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
                     <h2 class="font-['Playfair_Display'] text-4xl font-bold text-gray-800 mb-6">About Us</h2>
                     <p class="text-gray-600 mb-4">Gippsland is a rural region south east of Victoria, more than 4 times the area of Melbourne but only about 5% of its population. Gippsland is best known for its primary production such as farming and about half of the farms in Gippsland are beef cattle farms. The temperate climate and high average annual rainfall makes Gippsland a renowned beef producing region.</p>
-                    <p class="text-gray-600 mb-6">Our farm is located in the beautiful rolling hills of West Gippsland in the Strzelecki Ranges, about 1.5 hours from Melbourne CBD and 20 minutes from the town of Warragul. The hilly terrain makes the farm not arable and only suitable for raising livestock. We have been raising beef cattle since 2013 and really excited to share our produce with you.</p>
+                    <p class="text-gray-600 mb-6">Our farm is located in the beautiful rolling hills of West Gippsland in the Strzelecki Ranges, about 1.5 hours from Melbourne CBD and 20 minutes from the town of Warragul. The hilly terrain makes the farm not arable but excellent for raising livestock. We are a small family-owned and operated farm, and have been breeding beef cattle, primarily Red Angus and Wagyu alongside our four children since 2013.</p>
                     <div class="flex space-x-4">
                         <div class="flex items-center">
                             <i data-feather="check-circle" class="text-amber-700 mr-2"></i>
@@ -95,7 +99,7 @@
                     </div>
                 </div>
                 <div class="md:w-1/2">
-                    <img src="images/photo1.jpg" alt="Cattle View" class="rounded-lg shadow-xl">
+                    <img src="images/photo1.jpeg" alt="Cattle View" class="rounded-lg shadow-xl">
                 </div>
             </div>
         </div>
@@ -107,7 +111,7 @@
             <h2 class="font-['Playfair_Display'] text-4xl font-bold text-gray-800 mb-12 text-center">Wagyu & Angus Grass Fed Beef</h2>
             
             <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md mb-12">
-                <h3 class="text-2xl font-bold text-amber-800 mb-6">9kg Beef Pack (including BONUS)</h3>
+                <h3 class="text-2xl font-bold text-amber-800 mb-6">Beef Pack</h3>
                 <div class="grid md:grid-cols-2 gap-8">
                     <div>
                         <div class="bg-green-600 p-4 rounded-lg mb-6">
@@ -115,7 +119,7 @@
                             <h4 class="font-bold text-xl">Angus $260</h4>
                         </div>
                         <ul class="space-y-3 text-gray-700">
-                            <li><span class="font-semibold">Mixed Steak 2.5kg</span>
+                            <li><span class="font-semibold">Mixed Steak ~2.5kg</span>
                                 <ul class="ml-4 mt-1">
                                     <li>• Eye/Scotch Fillet</li>
                                     <li>• Porterhouse</li>
@@ -124,15 +128,13 @@
                                     <li>• BBQ</li>
                                 </ul>
                             </li>
-                            <li><span class="font-semibold">Diced 1.0kg</span></li>
-                            <li><span class="font-semibold">Roast 2.0kg</span></li>
-                            <li><span class="font-semibold">Premium Mince 2.0kg</span></li>
-                            <li><span class="font-semibold">6 Burger Patties</span></li>
-                            <li><span class="font-semibold">BONUS 1kg Premium Mince</span></li>
+                            <li><span class="font-semibold">Diced ~1.0kg</span></li>
+                            <li><span class="font-semibold">Roast ~2.0 to 2.5kg</span></li>
+                            <li><span class="font-semibold">Premium Mince ~2.5kg</span></li>
                         </ul>
                     </div>
                     <div class="flex items-center justify-center">
-                        <img src= "images/photo2.jpg" alt="Beef Pack" class="rounded-lg">
+                        <img src= "images/photo2.jpeg" alt="Beef Pack" class="rounded-lg">
                 
                     </div>
                 </div>
@@ -143,12 +145,12 @@
                 <div class="bg-white p-6 rounded-lg shadow-md">
                     <h3 class="text-2xl font-bold text-amber-800 mb-4">Half Side of Beef</h3>
                     <p class="text-gray-700 mb-2">(Quarter of a Cattle)</p>
-                    <p class="text-gray-600">Approximate Dressed Weight is about 50kg to 80kg</p>
+                    <p class="text-gray-600">Approximate Hot Dressed Weight is about 50kg to 70kg</p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-bold text-amber-800 mb-4">Full Side of Beef</h3>
+                    <h3 class="text-2xl font-bold text-amber-800 mb-4">Whole Side of Beef</h3>
                     <p class="text-gray-700 mb-2">(Half of a Cattle)</p>
-                    <p class="text-gray-600">Approximate Dressed Weight is about 100kg to 160kg</p>
+                    <p class="text-gray-600">Approximate Hot Dressed Weight is about 100kg to 140kg</p>
                 </div>
             </div>
 
@@ -171,16 +173,20 @@
             <h2 class="font-['Playfair_Display'] text-4xl font-bold text-gray-800 mb-12 text-center">Frequently Asked Questions</h2>
             <div class="max-w-3xl mx-auto space-y-6">
                 <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="font-bold text-xl text-amber-800 mb-2">How do I order the beef pack?</h3>
-                    <p class="text-gray-600">You can either email or call us to place your orders. A $100 deposit will be required before processing of the cattle.</p>
+                    <h3 class="font-bold text-xl text-amber-800 mb-2">How do I order your beef?</h3>
+                    <p class="text-gray-600">You can either email or call us to place your order. A $100 deposit will be required to proceed with your order.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-xl text-amber-800 mb-2">How do deliveries work?</h3>
+                    <p class="text-gray-600">We personally handle all our beef deliveries, ensuring your beef is delivered fresh, straight from the butcher. Deliveries will be made on Saturdays.</p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md">
                     <h3 class="font-bold text-xl text-amber-800 mb-2">How do I pick up the beef pack?</h3>
-                    <p class="text-gray-600">When the beef packs are ready, we will inform you of a designated location in your local vicinity at an appointed time and day for you to pick it up. Home delivery also available for a small fee.</p>
+                    <p class="text-gray-600">Pick-up is usually from a designated location, depending on our other deliveries, at an appointed time on Saturdays. Home delivery is also available for an additional fee.</p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="font-bold text-xl text-amber-800 mb-2">How much fridge or freezer space do I need?</h3>
-                    <p class="text-gray-600">A 9kg beef pack will generally fit into a 20L space and standard top mount refrigerators usually have 250L of fridge and 100L of freezer space.</p>
+                    <h3 class="font-bold text-xl text-amber-800 mb-2">How much freezer space do I need?</h3>
+                    <p class="text-gray-600">A whole side of beef (half a cattle) should fit nicely into a 200L freezer. The beef is vacuum-sealed, so it takes up less space.</p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md">
                     <h3 class="font-bold text-xl text-amber-800 mb-2">Are you certified organic?</h3>
